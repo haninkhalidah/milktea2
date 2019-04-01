@@ -1,0 +1,50 @@
+body,html{
+    height: 100%;
+    margin: auto;
+}
+.section1{
+    padding: 100px 0px;
+    background: #147587;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: block;
+}
+.judul{
+    font-family: Typo Grotesk;
+    font-size: 40px;
+    color: black;
+}
+.sub-judul{
+    font-family: Geometr212 BkCn BT;
+    font-size:25px;
+    color: #F3ECE5;
+}
+.section2{
+    width: auto;
+    padding: 110px 0px;
+    background: #FECB5F;
+}
+.col-kiri{
+    text-align: center;
+    padding-left: 100px;
+    font-family:Typo Grotesk;
+    font-size:30px;
+    color: #FA7E5C;
+    width: auto;
+}
+.col-kanan{
+    align-items: center;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+}
+.col-tengah{
+    background: #FA7E5C;
+    text-align: center;
+    font-family:Typo Grotesk;
+    font-size:30px;
+    color: white;
+    width: auto;
+}
