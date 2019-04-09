@@ -48,3 +48,16 @@ body,html{
     color: white;
     width: auto;
 }
+.section3{
+    min-height: 300px;
+    padding: 50px 0px;
+    background: white;
+}
+.link{
+    padding: 5px 10px;
+    color: darkblue;
+}
+.link:hover{
+    background: black;
+    color: beige;
+}
