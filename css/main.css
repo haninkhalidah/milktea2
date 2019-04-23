@@ -3,45 +3,59 @@ body,html{
     margin: auto;
 }
 .section1{
-    padding: 100px 0px;
-    background: #147587;
+    padding-top: 125px;
+    background: #f6d5b6;
     width: 100%;
     height: 100%;
     text-align: center;
     display: block;
 }
 .judul{
-    font-family: Typo Grotesk;
-    font-size: 40px;
+    font-family: Champagne & Limousines;
+    font-size: 55px;
     color: black;
 }
 .sub-judul{
-    font-family: Geometr212 BkCn BT;
+    font-family: Century Gothic;
     font-size:25px;
-    color: #F3ECE5;
+    color: #8daaa6;
 }
 .section2{
     width: auto;
-    padding: 110px 0px;
-    background: #FECB5F;
+    height: auto;
+    padding: 100px 0px;
+    background: #e9ae8c;
+}
+.judul-section2{
+    text-align: center;
+    font-family: Typo Grotesk;
+    font-size: 40px;
+    color: black;
+    padding-bottom: 100px 0px;
 }
 .col-kiri{
-    text-align: center;
+    text-align: justify;
+    padding-top: 100px;
     padding-left: 100px;
-    font-family:Typo Grotesk;
-    font-size:30px;
-    color: #FA7E5C;
+    padding-right: 100px;
+    font-family: Geometr212 BkCn BT;
+    font-size:24px;
+    color:  black;
     width: auto;
 }
 .col-kanan{
-    align-items: center;
     position: absolute;
     right: 0px;
     width: 300px;
-    padding: 10px;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.responsive {
+  max-width:100%;
+  height: auto;
 }
 .col-tengah{
-    background: #FA7E5C;
+    background: white;
     text-align: center;
     font-family:Typo Grotesk;
     font-size:30px;
@@ -51,7 +65,28 @@ body,html{
 .section3{
     min-height: 300px;
     padding: 50px 0px;
-    background: white;
+    background: #ff9376;
+}
+.col-kiri-2{
+    position:fixed;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: auto;
+}
+.judul-section3{
+    text-align: center;
+    font-family: Typo Grotesk;
+}
+.col-kanan-2{
+    text-align: justify;
+    font-family: Geometr212 BkCn BT;
+    font-size:25px;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 100px 0px;
 }
 .link{
     padding: 5px 10px;
@@ -59,5 +94,81 @@ body,html{
 }
 .link:hover{
     background: black;
-    color: beige;
+    color: white;
+}
+.section4{
+    min-height: 300px;
+    padding: 50px 0px;
+    background: #e9ae8c;
+}
+.row-4{
+    text-align: center;
+    font-family:Geometr212 BkCn BT;
+    font-size: 20px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+.section5{
+    min-height: 300px;
+    padding: 50px 0px;
+    background: #f6d5b6;
+}
+.col-kanan-5{
+    text-align: left;
+    font-family: Geometr212 BkCn BT;
+    font-size:25px;
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 100px 0px;
 }
